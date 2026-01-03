@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        /* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b5ed7;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header .nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.header .nav a:hover {
+  text-decoration: underline;
+}
+
+/* Privacy Section */
+.privacy-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.privacy-section h1 {
+  color: #0b5ed7;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.privacy-section .intro {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+/* Each privacy item */
+.privacy-content .privacy-item {
+  background: #fff;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-left: 6px solid #0b5ed7;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.privacy-content .privacy-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.privacy-content .privacy-item h3 {
+  color: #0b5ed7;
+  margin-bottom: 10px;
+}
+
+/* Footer Note */
+.footer-note {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #0b5ed7;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .privacy-section {
+    margin: 30px auto;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header .nav {
+    margin-top: 10px;
+  }
+  .header .nav a {
+    margin: 0 10px 5px 0;
+  }
+}
+
+    </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Priyanshi Computer Classes</title>
+  <link rel="stylesheet" href="privacy.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="logo">Priyanshi Computer Classes</div>
+  <nav class="nav">
+    <a href="Home.html">Home</a>
+    <a href="#">Courses</a>
+    <a href="AdmissionForm.html">Admission</a>
+    <a href="Gallary.html">Gallery</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- Privacy Policy Section -->
+<section class="privacy-section">
+  <h1>Privacy Policy</h1>
+  <p class="intro">At Priyanshi Computer Classes, your privacy is important to us. This policy explains how we collect, use, and protect your information.</p>
+
+  <div class="privacy-content">
+
+    <div class="privacy-item">
+      <h3>1. Information Collection</h3>
+      <p>We collect personal information such as name, email, phone number, and address when students fill out admission forms or contact us.</p>
+    </div>
+
+    <div class="privacy-item">
+      <h3>2. Use of Information</h3>
+      <p>Collected information is used to process admissions, provide course updates, and communicate important information about classes and services.</p>
+    </div>
+
+    <div class="privacy-item">
+      <h3>3. Data Security</h3>
+      <p>We take necessary measures to protect personal information from unauthorized access, alteration, or disclosure. Your data is stored securely.</p>
+    </div>
+
+    <div class="privacy-item">
+      <h3>4. Sharing of Information</h3>
+      <p>We do not sell or share personal information with third parties without your consent, except as required by law or for necessary service purposes.</p>
+    </div>
+
+    <div class="privacy-item">
+      <h3>5. Cookies and Tracking</h3>
+      <p>Our website may use cookies to enhance user experience. Cookies do not store personal data and can be disabled in your browser settings.</p>
+    </div>
+
+    <div class="privacy-item">
+      <h3>6. Updates to Policy</h3>
+      <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with the updated date.</p>
+    </div>
+
+    <div class="privacy-item">
+      <h3>7. Contact</h3>
+      <p>If you have questions about your data or this privacy policy, contact us at <strong>priyanshicomputer@gmail.com</strong> or call <strong>+91 98765 43210</strong>.</p>
+    </div>
+
+  </div>
+
+  <p class="footer-note">By using our website or enrolling in our courses, you agree to this Privacy Policy.</p>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2026 Priyanshi Computer Classes. All rights reserved.</p>
+<div id="datetime"></div>
+<script src="script.js"></script>
+</footer>
+</body>
+</html>

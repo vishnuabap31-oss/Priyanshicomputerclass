@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        /* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b5ed7;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header .nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.header .nav a:hover {
+  text-decoration: underline;
+}
+
+/* Terms Section */
+.terms-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.terms-section h1 {
+  color: #0b5ed7;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.terms-section .intro {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+/* Each term block */
+.terms-content .term {
+  background: #fff;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-left: 6px solid #0b5ed7;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.terms-content .term:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.terms-content .term h3 {
+  color: #0b5ed7;
+  margin-bottom: 10px;
+}
+
+/* Footer Note */
+.footer-note {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #0b5ed7;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .terms-section {
+    margin: 30px auto;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header .nav {
+    margin-top: 10px;
+  }
+  .header .nav a {
+    margin: 0 10px 5px 0;
+  }
+}
+
+    </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Conditions | Priyanshi Computer Classes</title>
+  <link rel="stylesheet" href="terms.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="logo">Priyanshi Computer Classes</div>
+  <nav class="nav">
+    <a href="Home.html">Home</a>
+    <a href="#">Courses</a>
+    <a href="AdmissionForm.html">Admission</a>
+    <a href="Gallary.html">Gallery</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- Terms Section -->
+<section class="terms-section">
+  <h1>Terms & Conditions</h1>
+  <p class="intro">By enrolling in Priyanshi Computer Classes, you agree to the following rules and policies:</p>
+
+  <div class="terms-content">
+
+    <div class="term">
+      <h3>1. Admission Rules</h3>
+      <p>Admission form must be filled with correct and complete information. Wrong information may lead to cancellation of admission.</p>
+    </div>
+
+    <div class="term">
+      <h3>2. Fees Policy</h3>
+      <p>Admission fees are non-refundable once paid. Fees must be submitted on time. Fees structure may change as per institute rules.</p>
+    </div>
+
+    <div class="term">
+      <h3>3. Course Duration</h3>
+      <p>Course duration may change due to holidays or unavoidable circumstances. Class timing will be decided by the institute.</p>
+    </div>
+
+    <div class="term">
+      <h3>4. Attendance</h3>
+      <p>Regular attendance is mandatory. Excessive absence may result in denial of certificate issuance.</p>
+    </div>
+
+    <div class="term">
+      <h3>5. Certificate Policy</h3>
+      <p>Certificates are issued only after course completion. Minimum attendance and practical work completion are mandatory.</p>
+    </div>
+
+    <div class="term">
+      <h3>6. Code of Conduct</h3>
+      <p>Students must maintain discipline within the institute. Misbehavior or damage to property may result in strict action.</p>
+    </div>
+
+    <div class="term">
+      <h3>7. Use of Knowledge</h3>
+      <p>Institute is not responsible for misuse of course knowledge by students.</p>
+    </div>
+
+    <div class="term">
+      <h3>8. Website Content</h3>
+      <p>All content on this website is copyright protected. Copying content without permission is prohibited.</p>
+    </div>
+
+    <div class="term">
+      <h3>9. Privacy Policy</h3>
+      <p>Students' personal information will be kept secure and not shared with third parties without permission.</p>
+    </div>
+
+    <div class="term">
+      <h3>10. Changes in Terms</h3>
+      <p>Priyanshi Computer Classes may change these terms at any time without prior notice.</p>
+    </div>
+
+  </div>
+
+  <p class="footer-note">By taking admission, you agree to all the Terms & Conditions of Priyanshi Computer Classes.</p>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2026 Priyanshi Computer Classes. All rights reserved.</p>
+  <div id="datetime"></div>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>
